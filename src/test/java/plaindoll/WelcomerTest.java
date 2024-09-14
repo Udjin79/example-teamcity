@@ -35,7 +35,6 @@ public class WelcomerTest {
 
 	@Test
 	public void welcomerSaysRandomHunterPhrase() {
-		// As the phrase is random, we only assert that it contains the word "hunter"
 		assertThat(welcomer.sayRandomHunterPhrase().toLowerCase(), containsString("hunter"));
 	}
 }
